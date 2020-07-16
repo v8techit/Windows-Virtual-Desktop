@@ -100,7 +100,7 @@ The default app group created for a New Windows Virtual Desktop host pool also p
 5. Search for your user (you can use the user we created in Lab01)
 6. Click **Select**
 
-<image src="https://github.com/v8techit/WVD/blob/master/Media/wvd6.PNG'"/>
+<image src ="https://github.com/v8techit/WVD/blob/master/Media/wvd6.PNG"/>
 
 7. To test user access go to: https://rdweb.wvd.microsoft.com/arm/webclient/
 8. Login with the correct user
