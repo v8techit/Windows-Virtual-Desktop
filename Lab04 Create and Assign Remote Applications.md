@@ -27,6 +27,14 @@ You should already have one Application Security Group. This is defeault group, 
 
 13. Click **Add Azure AD users or user Groups** and add yourself to this Application Group.
 14. Click **Next: Applications**
+15. On the **Applications** tab click **Add applications**
+
+We have the option to add applications from the Windows Startmenu, or we can provide our own filepath where the application is located.
+
+
+
+
+
 
 
 
