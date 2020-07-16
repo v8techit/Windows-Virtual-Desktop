@@ -31,6 +31,41 @@ You should already have one Application Security Group. This is defeault group, 
 
 We have the option to add applications from the Windows Startmenu, or we can provide our own filepath where the application is located.
 
+<img src ="https://github.com/v8techit/WVD/blob/master/Media/wvd9.PNG"/>
+
+16. In the **Add application** Select **Start menu**
+17. **Application**: Outlook
+18. **Display name:** Leave default
+19. **Description** Outlook for endusers
+20. **Require command line** No
+21. Click **Save**
+
+**Note:** If you want to add more apps, repeat step 16 - 21 
+
+<img src = "https://github.com/v8techit/WVD/blob/master/Media/wvd10.PNG" />
+
+22. Click **Next:Workspace**
+23. Next to **Register application group** click **yes**
+24. Click **Next:tags**
+25. Click **Review and Create**
+
+After the validation is passed click **Create**
+
+Creation of the Application Group can take a couple of minutes.
+
+26. After the Application group is deployed you can test if the user can access the application
+27. Go to: https://rdweb.wvd.microsoft.com/arm/webclient/ 
+28. Logon with the user account that is assigned to the application group.
+
+<img src = "https://github.com/v8techit/WVD/blob/master/Media/wvd11.PNG" />
+
+
+
+
+
+
+
+
 
 
 
