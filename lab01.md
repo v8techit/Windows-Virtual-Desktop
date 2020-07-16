@@ -10,6 +10,8 @@
 
 4. On the User page, enter information for this user
 
+**Note:** Make sure your username doesn't contain anything related to admin. **So don't use something like admin@mydomain.onmicrosoft.com.** As this will cause problems when deploying Windows Virtual Desktop. 
+
 5. Make sure you add the Directory Role **Global Administrator** for this user.
 
 <img src="https://github.com/v8techit/WVD/blob/master/Media/user_create.PNG"/>
