@@ -87,6 +87,31 @@ We have the ability to select no at this moment, so we can register the app grou
 34. After validation passed click **Create**
 
 You Host Pool wil now be created. This can take a couple of minutes. 
+**Note:** Do not continue until you host pool is created
+
+# Add a user to your Application Group
+
+The default app group created for a New Windows Virtual Desktop host pool also publishes the full desktop. In order to give users access to this desktop you need to add them to the app group.
+
+1. In the Windows Virtual Desktop Overview page Select **Application groups**
+2. Select your created application group
+3. Under **Manage** Select **Assignments**
+4. In the **Assignments** tab click **Add** on the top of the page
+5. Search for your user (you can use the user we created in Lab01)
+6. Click **Select**
+
+<image src="https://github.com/v8techit/WVD/blob/master/Media/wvd6.PNG'"/>
+
+7. To test user access go to: https://rdweb.wvd.microsoft.com/arm/webclient/
+8. Login with the correct user
+
+**Note** It can take a couple of minutes before the user is able to connect. If connection fails refresh the page an try it again.
+
+
+            
+
+
+
 
 
 
