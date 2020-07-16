@@ -57,4 +57,54 @@ You can create a managed domain using default configuration options for networki
 
 **Note:** Creation of the managed domain can take **up to an hour**
 
+*When the managed domain is fully provisioned, the **Overview** tab shows the domain status as **Running** *
+
+<img src = "https://github.com/v8techit/WVD/blob/master/Media/add-ds_deployed.PNG"/>
+
+
+# Update DNS settings for the Azure Virtual Network
+
+With Azure AD DS successfully deployed we can now configure some necessary settings. One of those settings is to configure the Virtual Network to allow other connected VMs and applications to use the managed domain. To get this connectivity, we need to update the DNS server settings for the Virtual Netowrk to point to the two IP Addresses where the managed domain is deployed.
+
+1. In the **overview** tab you will see some **Required Configuration steps**. The first step is to update DNS server settings for the Virtual Network. 
+
+*Note: Once this step is completed, it will no longer show on the overview page*
+
+2. To update the DNS server settings, select the **Configure** button
+
+<img src = "https://github.com/v8techit/WVD/blob/master/Media/dns_configure.PNG" />
+
+# Enable user accounts for Azure AD DS
+
+In order to authenticate users on the managed domain, AD DS needs password hashes in a format that can work with NTLM and Kerberos authentication. 
+We are working with Cloud-only users accounts. Those accounts are saved in Azure AD. Azure AD doesn't generate or store password hashes that can be used with NTLM or Kerberos. 
+The steps to generate and sotre these password hashes is a user interaction. 
+User must change their password before they can use Azure AD DS. This password change process causes the password hasshes for Kerberos and NTLM authentication to be generated and stored in Azure AD. 
+The User account isn't synchronized from Azure AD to Azure AD DS until the password is changed. 
+So we have two options:**
+
+- Either expire the password for all cloud users, which will force a password change
+- or instruct user to manually change thei passwords. 
+
+We will manually change the password for our lab user (the user we created in Lab01)
+
+1. go to the Azure AD Access Panel page at https://myapps.microsoft.com
+2. In the top-right corner, select yoru name, then choose **Profile** from the drop-down menu
+
+<img src = "https://github.com/v8techit/WVD/blob/master/Media/password_change.png" />
+
+3. on the **Profile** page select **Change Password**
+4. on the **Change password** page, enter your existing password, then enter and confirm a new password
+5. Select **Submit**
+
+<img src = "https://github.com/v8techit/WVD/blob/master/Media/changepassword3.png" />
+
+**Note:** it takes a few minutes before the password is usable in Azure AD DS. 
+
+We are now done with setting up Azure AD DS. This managed domain will be used when we deploy Windows Virtual Desktop. 
+
+
+
+
+
 
