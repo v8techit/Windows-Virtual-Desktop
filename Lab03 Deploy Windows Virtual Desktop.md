@@ -21,7 +21,7 @@
 
 # Create your host pool
 
-Host pools are a collection fo one or more identical VMs within the WVD enviroments. Each host pool can contain an app group that suers can interact with as they would on a physical desktop. 
+Host pools are a collection fo one or more identical VMs within the WVD enviroments. Each host pool can contain an app group that users can interact with as they would on a physical desktop. 
 In the following steps we will create an host pool via de Azure Portal. 
 
 When you create a Windows Virtual Desktop host pool, you can create a VM from the Azure gallery, a managed image, or an unmanaged Image. 
