@@ -78,18 +78,19 @@ With Azure AD DS successfully deployed we can now configure some necessary setti
 
 In order to authenticate users on the managed domain, AD DS needs password hashes in a format that can work with NTLM and Kerberos authentication. 
 We are working with Cloud-only users accounts. Those accounts are saved in Azure AD. Azure AD doesn't generate or store password hashes that can be used with NTLM or Kerberos. 
-The steps to generate and sotre these password hashes is a user interaction. 
+The steps to generate and store these password hashes is a user interaction. 
+
 User must change their password before they can use Azure AD DS. This password change process causes the password hasshes for Kerberos and NTLM authentication to be generated and stored in Azure AD. 
 The User account isn't synchronized from Azure AD to Azure AD DS until the password is changed. 
-So we have two options:**
+So we have **two options:**
 
 - Either expire the password for all cloud users, which will force a password change
-- or instruct user to manually change thei passwords. 
+- or instruct user to manually change their passwords. 
 
 We will manually change the password for our lab user (the user we created in Lab01)
 
 1. go to the Azure AD Access Panel page at https://myapps.microsoft.com
-2. In the top-right corner, select yoru name, then choose **Profile** from the drop-down menu
+2. In the top-right corner, select your name, then choose **Profile** from the drop-down menu
 
 <img src = "https://github.com/v8techit/WVD/blob/master/Media/password_change.png" />
 
