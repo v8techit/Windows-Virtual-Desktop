@@ -38,8 +38,8 @@ In this lab we will use a Azure gallery image. In later labs we will use a custo
 
 4. On the **Basics** tab make sure the correct subscription is select
 5. Select an existing Resource Group, or Create a new one
-6. **Host Pool Name**: Make sure you enter a uniek name for your Host Pool
-7. **Location:** This is the location where you metadata will be stored. C
+6. **Host Pool Name**: Make sure you enter a unique name for your Host Pool
+7. **Location:** This is the location where you metadata will be stored.
 8. **Host Pool Type** Choose **Pooled**
 9. **Max Session Limit** 4
 10. **Load Balancing algrorithm** Breadt-first
