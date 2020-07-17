@@ -37,7 +37,7 @@ In this lab we will use a Azure gallery image. In later labs we will use a custo
 <img src ="https://github.com/v8techit/WVD/blob/master/Media/wvd2.PNG"/>
 
 4. On the **Basics** tab make sure the correct subscription is select
-5. Select the an existing Resource Group, or Create a new one
+5. Select an existing Resource Group, or Create a new one
 6. **Host Pool Name**: Make sure you enter a uniek name for your Host Pool
 7. **Location:** This is the location where you metadata will be stored. C
 8. **Host Pool Type** Choose **Pooled**
