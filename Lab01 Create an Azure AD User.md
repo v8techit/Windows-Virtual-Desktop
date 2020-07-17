@@ -32,7 +32,7 @@
 
 <img src ="https://github.com/v8techit/WVD/blob/master/Media/subscription.PNG"/>
 
-3. In the Subscription Blade, select **Access control > Add **
+3. In the Subscription Blade, select **Access control > Add**
 
 <img src ="https://github.com/v8techit/WVD/blob/master/Media/add-role.PNG"/>
 
