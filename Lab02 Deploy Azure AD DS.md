@@ -57,7 +57,7 @@ You can create a managed domain using default configuration options for networki
 
 **Note:** Creation of the managed domain can take **up to an hour**
 
-*When the managed domain is fully provisioned, the **Overview** tab shows the domain status as **Running** *
+*When the managed domain is fully provisioned, the **Overview** tab shows the domain status as **Running***
 
 <img src = "https://github.com/v8techit/WVD/blob/master/Media/add-ds_deployed.PNG"/>
 
