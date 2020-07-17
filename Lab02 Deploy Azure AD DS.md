@@ -64,7 +64,7 @@ You can create a managed domain using default configuration options for networki
 
 # Update DNS settings for the Azure Virtual Network
 
-With Azure AD DS successfully deployed we can now configure some necessary settings. One of those settings is to configure the Virtual Network to allow other connected VMs and applications to use the managed domain. To get this connectivity, we need to update the DNS server settings for the Virtual Netowrk to point to the two IP Addresses where the managed domain is deployed.
+With Azure AD DS successfully deployed we can now configure some necessary settings. One of those settings is to configure the Virtual Network to allow other connected VMs and applications to use the managed domain. To get this connectivity, we need to update the DNS server settings for the Virtual Network to point to the two IP Addresses where the managed domain is deployed.
 
 1. In the **overview** tab you will see some **Required Configuration steps**. The first step is to update DNS server settings for the Virtual Network. 
 
